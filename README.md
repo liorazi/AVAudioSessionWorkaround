@@ -6,6 +6,9 @@ The bug was that you couldn't call AVAudioPlayer's call method in the AVAudioSes
 
 The workaround that seemed to work is adding a small delay to that call using <b>dispatch_after</b>.
 
+
+
+
 Today, 10/05/2016, I Submitted a radar to Apple about it, and here are its details: <b>(#26182163)</b>
 
 <b>Summary:</b>
