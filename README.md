@@ -1,5 +1,4 @@
 # AVAudioSessionWorkaround
-AVAudioSession Interruptions test project
 
 This test project was made in order to test a workaround to an Apple's AVFoundation framework bug.
 
