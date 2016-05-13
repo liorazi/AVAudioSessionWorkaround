@@ -58,7 +58,7 @@
         } else {
             NSLog(@"InterruptionTypeEnded");
             
-            //*The* Workaround - Add a small delay to the avplayer's play call.
+            //*The* Workaround - Add a small delay to the avplayer's play call; Without the delay, the playback will *not* be resumed
             //(I didn't play much with the times, but 0.01 works with my iPhone 6S 9.3.1)
             dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 0.01 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
                 NSLog(@"playing");
